@@ -1,0 +1,57 @@
+
+
+.linked {
+  color: aqua;
+  border-radius: 64px;
+  border: none;
+  align-items: center;
+  margin-left: 0%;
+  margin-right: 2%;
+  margin-top: 2px;
+  background-image: linear-gradient(to right, green, red 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  text-decoration: none; /* Adding text decoration for links */
+}
+
+.linked::before {
+  content: "";
+  background: green;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.linked:hover::before {
+  width: 100%;
+}
+
+.linked:hover {
+  background-position: 0;
+}
+
+.linked:hover {
+  -webkit-text-fill-color: black; /* Change text color on hover */
+}
+
+.linked:hover::before {
+  background: lightblue; /* Change the underline color on hover */
+}
+
+
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+}
+  

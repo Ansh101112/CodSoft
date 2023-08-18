@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Poppins:ital,wght@0,300;1,200&family=Tektur:wght@500&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+.App {
+    text-align: center;
+    background: linear-gradient(to bottom, #A0FFA0, #70C870);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: black;
+}
+.App-header {
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FF6600;
+}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+li:hover {
+    color: #FF6600;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    line-height: 1.5;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* Add more CSS animations and styles as desired */
